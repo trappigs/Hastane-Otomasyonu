@@ -46,14 +46,149 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BransDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BransDuzenle.Designer.cs">
+      <DependentUpon>BransDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BransEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BransEkle.Designer.cs">
+      <DependentUpon>BransEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorDuzenle.Designer.cs">
+      <DependentUpon>DoktorDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorEkle.Designer.cs">
+      <DependentUpon>DoktorEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorForm.Designer.cs">
+      <DependentUpon>DoktorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GirisSecimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisSecimForm.Designer.cs">
+      <DependentUpon>GirisSecimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GirisEkraniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisEkraniForm.Designer.cs">
+      <DependentUpon>GirisEkraniForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaDuzenle.Designer.cs">
+      <DependentUpon>HastaDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaEkle.Designer.cs">
+      <DependentUpon>HastaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaForm.Designer.cs">
+      <DependentUpon>HastaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelForm.Designer.cs">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoliklinikDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoliklinikDüzenle.Designer.cs">
+      <DependentUpon>PoliklinikDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoliklinikEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoliklinikEkle.Designer.cs">
+      <DependentUpon>PoliklinikEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandevuAl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuAl.Designer.cs">
+      <DependentUpon>RandevuAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RandevuGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuGoruntule.Designer.cs">
+      <DependentUpon>RandevuGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sqlAdres.cs" />
+    <Compile Include="sqlAuth.cs" />
+    <Compile Include="sqlBransPol.cs" />
+    <Compile Include="sqlKisi.cs" />
+    <Compile Include="sqlGenel.cs" />
+    <Compile Include="sqlRandevu.cs" />
+    <EmbeddedResource Include="BransDuzenle.resx">
+      <DependentUpon>BransDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BransEkle.resx">
+      <DependentUpon>BransEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorDuzenle.resx">
+      <DependentUpon>DoktorDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorEkle.resx">
+      <DependentUpon>DoktorEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisSecimForm.resx">
+      <DependentUpon>GirisSecimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GirisEkraniForm.resx">
+      <DependentUpon>GirisEkraniForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaDuzenle.resx">
+      <DependentUpon>HastaDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaEkle.resx">
+      <DependentUpon>HastaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaForm.resx">
+      <DependentUpon>HastaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelForm.resx">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliklinikDüzenle.resx">
+      <DependentUpon>PoliklinikDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoliklinikEkle.resx">
+      <DependentUpon>PoliklinikEkle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +198,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RandevuAl.resx">
+      <DependentUpon>RandevuAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandevuGoruntule.resx">
+      <DependentUpon>RandevuGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +216,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

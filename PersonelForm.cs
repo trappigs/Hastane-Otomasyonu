@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace hastane_otomasyonu
 {
-    public partial class Form1 : Form
+    public partial class PersonelForm : Form
     {
-        public Form1()
+        public PersonelForm()
         {
             InitializeComponent();
-        }
-
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            //DoktorEkle doktorEkle = new DoktorEkle();
-            //ShowForm(doktorEkle);
         }
 
         private void ShowForm(Form form)
@@ -61,24 +54,38 @@ namespace hastane_otomasyonu
             ShowForm(polduzenle);
         }
 
+        // doktor ekle form
         private void button5_Click(object sender, EventArgs e)
         {
-
+            DoktorEkle doktorEkle = new DoktorEkle();
+            ShowForm(doktorEkle);
         }
 
+        // doktor düzenle form
         private void button6_Click(object sender, EventArgs e)
         {
-
+            DoktorDuzenle doktorDuzenle = new DoktorDuzenle();
+            ShowForm(doktorDuzenle);
         }
 
+        // hasta ekle form
         private void button7_Click(object sender, EventArgs e)
         {
-
+            HastaEkle hastaEkle = new HastaEkle();
+            ShowForm(hastaEkle);
+        }
+ 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            HastaDuzenle hastaDuzenle = new HastaDuzenle();
+            ShowForm(hastaDuzenle);
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void PersonelForm_Load(object sender, EventArgs e)
         {
 
         }
+
+       
     }
 }

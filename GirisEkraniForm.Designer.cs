@@ -37,7 +37,7 @@
             // 
             // tcTextBox
             // 
-            this.tcTextBox.Location = new System.Drawing.Point(93, 80);
+            this.tcTextBox.Location = new System.Drawing.Point(93, 89);
             this.tcTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.tcTextBox.Name = "tcTextBox";
             this.tcTextBox.Size = new System.Drawing.Size(132, 22);
@@ -45,7 +45,7 @@
             // 
             // sifreTextBox
             // 
-            this.sifreTextBox.Location = new System.Drawing.Point(93, 151);
+            this.sifreTextBox.Location = new System.Drawing.Point(94, 170);
             this.sifreTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.sifreTextBox.Name = "sifreTextBox";
             this.sifreTextBox.Size = new System.Drawing.Size(132, 22);
@@ -54,26 +54,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             this.label1.Location = new System.Drawing.Point(89, 60);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 16);
+            this.label1.Size = new System.Drawing.Size(42, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "TC";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
             this.label2.Location = new System.Drawing.Point(89, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 16);
+            this.label2.Size = new System.Drawing.Size(57, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Şifre";
             // 
             // girisYapButton
             // 
-            this.girisYapButton.Location = new System.Drawing.Point(115, 215);
+            this.girisYapButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
+            this.girisYapButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.girisYapButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.girisYapButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(149)))));
+            this.girisYapButton.Location = new System.Drawing.Point(113, 234);
             this.girisYapButton.Margin = new System.Windows.Forms.Padding(4);
             this.girisYapButton.Name = "girisYapButton";
             this.girisYapButton.Size = new System.Drawing.Size(84, 37);

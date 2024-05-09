@@ -197,6 +197,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RandevuAl.resx">
       <DependentUpon>RandevuAl.cs</DependentUpon>
@@ -219,6 +220,30 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meeting-31.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
